@@ -24,7 +24,7 @@ Ensuring the virtual environment is active, install the requirements.
 pip install -r requirements.txt
 ```
 ### Environment variables
-An environment variable to house your [https://help.clubhouse.io/hc/en-us/articles/205701199-Clubhouse-API-Tokens](Clubhouse.io API token) must be created and called CLUBHOUSE_TOKEN.
+An environment variable to house your [https://help.clubhouse.io/hc/en-us/articles/205701199-Clubhouse-API-Tokens](Clubhouse  API token) must be created and called CLUBHOUSE_TOKEN.
 
 ### Understand the code
 Look to the main() method for description of what is going to happen. Be sure to understand what's hapenning before running any code.
