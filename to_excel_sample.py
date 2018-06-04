@@ -215,4 +215,4 @@ if __name__ == '__main__':
     else:
         print('The CLUBHOUSE_TOKEN environment variable is not set.\n'
               'See https://help.clubhouse.io/hc/en-us/articles/205701199-Clubhouse-API-Tokens\n'
-              'Then make the token available as an environment variable (usually in your virtual environment\n')
+              'Then make the token available as an environment variable (usually in your virtual environment)\n')
