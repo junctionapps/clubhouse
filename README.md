@@ -6,7 +6,7 @@ Some sample scripts for managing Clubhouse.io API
 Searches a Clubhouse.io organization for a particular set of stories and outputs them to an Excel xlsx file with sheets for each Epic.
 
 ## Getting started
-Assuming a version of [Python 3.6.4 or higher is installed ](https://docs.python.org/3/) and some knowledge of Python's virtual environments. I personally recomend using [https://www.jetbrains.com/pycharm/](JetBrain's PyCharm) to make life so much easier, but it's not everyone's favourite IDE. If using PyCharm, I typically setup the environmemt variable within the configuration or project and use the Run button to run the configuration as needed. The steps below may assist if you chose not to use PyCharm.
+Assuming a version of [Python 3.6.4 or higher is installed ](https://docs.python.org/3/) and some knowledge of Python's virtual environments. I personally recomend using [JetBrain's PyCharm](https://www.jetbrains.com/pycharm/) to make life so much easier, but it's not everyone's favourite IDE. If using PyCharm, I typically setup the environmemt variable within the configuration or project and use the Run button to run the configuration as needed. The steps below may assist if you chose not to use PyCharm.
 
 ### Create and activate a virtual environment
 Create a folder on your local drive.
@@ -24,7 +24,7 @@ Ensuring the virtual environment is active, install the requirements.
 pip install -r requirements.txt
 ```
 ### Environment variables
-An environment variable to house your [https://help.clubhouse.io/hc/en-us/articles/205701199-Clubhouse-API-Tokens](Clubhouse  API token) must be created and called CLUBHOUSE_TOKEN.
+An environment variable to house your [Clubhouse  API token](https://help.clubhouse.io/hc/en-us/articles/205701199-Clubhouse-API-Tokens) must be created and called CLUBHOUSE_TOKEN.
 
 ### Understand the code
 Look to the main() method for description of what is going to happen. Be sure to understand what's hapenning before running any code.
