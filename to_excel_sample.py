@@ -200,7 +200,7 @@ def copy_stories_to_excel(query, output_to):
 
 
 def main():
-    # we'll search for any stores with the label "To be tested"
+    # we'll search for any stories with the label "To be tested"
     # we could get more complicated with combining search terms:
     # example: get all stories in the "Test scripts" project that are not complete and have no owner
     # query = "project:Test-scripts !state:complete !has:owner "
